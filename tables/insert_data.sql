@@ -28,3 +28,17 @@ VALUES
 (5, 3, 5, 2, 50),
 (6, 4, 3, 3, 20),
 (7, 4, 5, 1, 50);
+
+INSERT INTO Reviews (review_id, product_id, customer_id, review_date, rating, comment)
+VALUES
+(1, 1, 1, '2023-05-20', 5, 'Great laptop!'),
+(2, 2, 2, '2023-05-21', 4, 'Good phone, but battery life could be better.'),
+(3, 3, 3, '2023-05-22', 3, 'Average T-shirt.');
+
+INSERT INTO ProductInventory (product_id, stock_level)
+VALUES
+(1, 100),
+(2, 200),
+(3, 300),
+(4, 150),
+(5, 250);
